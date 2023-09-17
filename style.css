@@ -425,16 +425,16 @@ h3{
 
   @media screen and (max-width: 1629px) {
     .centeredSection2{
-        margin-left: 22%;
+        margin-left: 12.5%;
     }
     .visionParagraph{
-        left: 27.5%;
+        left: 2.5%;
     }
     .statementTitle{
-        left: 27.5%;
+        left: 2.5%;
     }
     .statementParagraph{
-        left: 27.5%;
+        left: 2.5%;
     }
     
 }
@@ -476,7 +476,24 @@ h3{
   
         .column.is-2 {
             width: 100%;
-          }
+        }
+        
+        .bottom-right{
+            font-size: 1.8vw;
+        }
+        .statementParagraph{
+            left: 3.5%;
+            font-size: 2vw;
+        }
+        .visionParagraph{
+            left: 3.5%;
+            font-size: 2vw;
+        }
+        .statementTitle{
+            left: 3.5%;
+            font-size: 2vw;
+        }
+          
 }
 
 @media screen and (max-width: 1296px) {
@@ -496,6 +513,7 @@ h3{
         width: 90vw;
         height: 83vw;
       }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -571,5 +589,8 @@ h3{
         margin: 0 4px;
         height: 1rem;
         width: 1rem;
+    }
+    .numberBulet{
+        font-size: 2.7vw;
     }
 }
