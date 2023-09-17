@@ -483,7 +483,19 @@ h3{
     .navbar-end {
       display: none;
     }
-
+    body{
+        overflow-y: hidden;
+    }
+    .valuesSideTitle{
+        display: none;
+    }
+    .valuesOverlayImg {
+        position: absolute;
+        margin-top: -51%;
+        left: 24%;
+        width: 90vw;
+        height: 83vw;
+      }
 }
 
 @media screen and (max-width: 1023px) {
